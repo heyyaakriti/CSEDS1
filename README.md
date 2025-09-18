@@ -1,3 +1,3 @@
 This is my first Git repository
 <br>
-Student:Aakriti Agrawal
+Student: Aakriti Agrawal
