@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h2 align="center">Student Registration Form</h2>
+
+  <form action="submit.html" method="post" align="center">
+    <table border="1" cellspacing="0" cellpadding="8" align="center">
+
+      <tr>
+        <td><label for="name">Full Name:</label></td>
+        <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" placeholder="example@gmail.com" required></td>
+      </tr>
+
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <input type="radio" id="male" name="gender" value="Male" required> <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="Other"> <label for="other">Other</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="dob">Date of Birth:</label></td>
+        <td><input type="date" id="dob" name="dob" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password" placeholder="Enter password" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="contact">Contact Number:</label></td>
+        <td><input type="tel" id="contact" name="contact" placeholder="Enter 10-digit number" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="course">Course:</label></td>
+        <td>
+          <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>BA</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><textarea id="address" name="address" rows="3" cols="30" placeholder="Enter your address" required></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Register">
+          <input type="button" value="Close" onclick="window.close();">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+</html>

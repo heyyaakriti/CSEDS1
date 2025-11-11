@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website - Homepage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ceddec;
+            margin: 5;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a> <br>
+        <a href="#sports">Sports</a><br>
+        <a href="#podcasts">Podcast</a>
+    </nav>
+    <section id="home">
+        <h2>Top Headlines</h2>
+
+        <div class="news">
+            <h3>Louvre Heist</h3>
+            <p> Why Louvre Museum Heist Is A Classic Case Of German Efficiency  
+               <br> Read more on                                                  
+                <a href="https://www.ndtv.com/world-news/why-louvre-museum-heist-is-a-classic-case-of-german-efficiency-9510413" target="_blank">NDTV News</a>.
+            </p>
+             <img src="louvre.jpg" 
+             alt="The Louvre Museum" width="500">  
+              </div>
+
+        <div class="news" id="sports">
+            <h3> Sports: Football League Finals</h3>
+            <p>
+                The finals ended with a thrilling penalty shootout. Watch the match highlights below:
+            </p>
+            <iframe width="500" height="280"
+                    src="https://youtube.com/embed/7KHsnbzKDlQ?si=BP3hdZGmgbgWGw26"
+                    title="Football Highlights"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div class="news" id="podcasts">
+            <h3>Podcast:Trump ends Canada trade talks over anti-tariff advert</h3>
+            <p>Listen to the latest news highlights here:</p>
+            <audio controls>
+                <source src="GlobalNewsPodcast-20251024-TrumpEndsCanadaTradeTalksOverAntiTariffAdvert.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </section>
+
+</body>
+</html>
