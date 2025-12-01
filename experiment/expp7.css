@@ -1,0 +1,74 @@
+
+header {
+ display: block;
+ background: rgb(241, 167, 167);
+ padding: 10px;
+ text-align: center;
+}
+header span {
+ display: inline;
+ color: red;
+}
+h3{
+    text-align: center;
+}
+.inline-block-menu{
+    background-color: rgb(153, 237, 237);
+    padding: 5px;
+}
+.inline-block-menu ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+.inline-block-menu li {
+ display: inline-block;
+ margin-right: 10px;
+ text-align: center;
+}
+.inline-block-menu a {
+ text-decoration: none; 
+ padding: 5px;
+ text-align: center;
+}
+.float-menu{
+    background-color: rgb(60, 239, 168);
+    padding: 5px;
+}
+.float-menu ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+.float-menu li {
+ display: inline;
+ margin-right: 10px;
+ text-align: center;
+}
+.float-menu a {
+ text-decoration: none;
+ padding: 5px;
+ text-align: center;
+}
+.kitchen-menu{
+    background-color: rgb(246, 246, 97);
+    padding: 5px;
+}
+.kitchen-menu ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+.kitchen-menu li {
+ display: inline;
+ margin-right: 10px;
+ text-align: center;
+}
+.kitchen-menu a {
+ text-decoration: none;
+ padding: 5px;
+ text-align: center;
+}
+.clear {
+ clear: both;
+}
