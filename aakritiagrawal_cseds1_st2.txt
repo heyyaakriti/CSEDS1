@@ -1,0 +1,121 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>Simple Navigation Menu</title>
+ <link rel="stylesheet" href="exp.css">
+  <style>
+  header {
+ display: block;
+ background: rgb(241, 167, 167);
+ padding: 10px;
+ text-align: center;
+}
+header span {
+ display: inline;
+ color: red;
+}
+h3{
+    text-align: center;
+}
+.inline-block-menu{
+    background-color: rgb(153, 237, 237);
+    padding: 5px;
+}
+.inline-block-menu ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+.inline-block-menu li {
+ display: inline-block;
+ margin-right: 10px;
+ text-align: center;
+}
+.inline-block-menu a {
+ text-decoration: none; 
+ padding: 5px;
+ text-align: center;
+}
+.float-menu{
+    background-color: rgb(60, 239, 168);
+    padding: 5px;
+}
+.float-menu ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+.float-menu li {
+ display: inline;
+ margin-right: 10px;
+ text-align: center;
+}
+.float-menu a {
+ text-decoration: none;
+ padding: 5px;
+ text-align: center;
+}
+.kitchen-menu{
+    background-color: rgb(246, 246, 97);
+    padding: 5px;
+}
+.kitchen-menu ul {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+.kitchen-menu li {
+ display: inline;
+ margin-right: 10px;
+ text-align: center;
+}
+.kitchen-menu a {
+ text-decoration: none;
+ padding: 5px;
+ text-align: center;
+}
+.clear {
+ clear: both;
+}
+</style> 
+
+ </head>
+ <body>
+ <header>  
+ <span><b>Amazon </b></span><i>:E-Commerce Website</i>
+ </header>
+ <br>
+ <nav class="inline-block-menu">
+ <ul>
+ <li><a href="#">|Home|</a></li>
+ <li><a href="#">|About|</a></li>
+ <li><a href="#">|Services|</a></li>
+ <li><a href="#">|Contact|</a>
+    
+ </ul>
+ </nav>
+ <h3>Electronics</h3>
+ <nav class="float-menu">
+ <ul>
+ <li><a href="#">|Laptops|</a></li>
+ <li><a href="#">|Tablets|</a></li>
+ <li><a href="#">|Smartwatches|</a></li>
+ <li><a href="#">|Headphones|</a></li>
+ </ul>
+ <div class="clear"></div>
+ </nav>
+ <h3>Home & Kitchen</h3>  
+ <nav class="kitchen-menu">
+ <ul>
+ <li><a href="#">|Home & decor|</a></li>
+ <li><a href="#">|Kitchen & dining|</a></li>
+ <li><a href="#">|Indoor lighting|</a></li>
+ <li><a href="#">|Home furniture|</a></li>
+ </ul>
+ <div class="clear"></div>
+ </nav>
+ </body>
+ </html>
+ 
